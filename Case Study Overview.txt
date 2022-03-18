@@ -1,0 +1,19 @@
+Overview:
+
+BlueYonder ESO(Enterprise Store Operation) provides comprehensive capabilities to forcasting, optimized ordering and replenishment, inventory execution,
+reporting and analytics, performance management and other operations. 
+For Store replenishment, ESO app recommends when and how much to order for each item
+available for ordering in the catalogue provided by suppliers.
+
+Data Description:
+
+The data provided is store replenishment orders placed for two stores for ~21 months.
+The store associate review the recommendations made by ESO and can modify the orders.
+The suggested ordered quantity is the quantity for an item which was recommended by ESO.
+The Actual order quantity is what the store associate decided to order based on his/her experience.
+
+Goal:
+
+Can we reduce the effort spent by store associate in reviewing and modifying the suggested quantities by predicting the changes they area likely to make?
+The objective is to predict the actual order quantity for the items.
+The model evaluation is done on RMSE score
